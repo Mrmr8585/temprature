@@ -1,0 +1,81 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background : linear-gradient(80deg , rgb(16, 179, 190) , rgb(212, 29, 142));
+    background-size: cover;
+}
+.container
+{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper
+{
+    width: 40%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-text
+{
+    
+    font-size: 2rem;
+    color:white;
+}
+.input
+{
+    width: 70%;
+    /* height: 2.5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#degry
+{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 5px goldenrod solid;
+    border-radius: 1rem;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.tabdil
+{
+    color: rgba;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.box-tabdil
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    /* background-color: brown; */
+}
+button
+{
+    padding: 1rem;
+    background-color: rgb(13, 212, 247 , 0.8);
+    color: rgb(255, 255, 255 , 0.8);
+    font-size: 2rem;
+    font-weight: 600;
+    border:0;
+    cursor: pointer;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
